@@ -1,0 +1,54 @@
+
+    int width = 50;
+    int height = 10;
+    int borderW = 2;
+    int borderH = 2;
+
+
+
+//How to make a solid rectangle
+
+cout<<"Solid rectangle in ASCII Art\n"<<endl;
+
+    for(int i = 0; i<height; i++)
+    {
+        for(int a = 0; a<width; a ++)
+        {
+
+            cout<<"#";
+
+        }
+
+            cout<<""<<endl;
+
+    }
+
+
+
+//How to make a border rectangle
+
+
+cout<<"Border rectangle in ASCII Art\n"<<endl;
+
+    for(int i =  0; i<height; i++)
+    {
+
+        for(int j = 0; j<width; j++)
+         {
+
+             if(j<borderW || j>=width-borderH || i<borderH || i>=height-borderH)
+            {
+         
+                cout<<"#";
+            } else 
+            {
+                cout<<" ";
+
+            }
+              
+
+         }
+
+   cout<<""<<endl;
+   
+    }
