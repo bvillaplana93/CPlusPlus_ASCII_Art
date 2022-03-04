@@ -15,7 +15,7 @@ cout<<"Solid rectangle in ASCII Art\n"<<endl;
         for(int a = 0; a<width; a ++)
         {
 
-            cout<<"#";
+            cout<<char(219);
 
         }
 
@@ -39,7 +39,7 @@ cout<<"Border rectangle in ASCII Art\n"<<endl;
              if(j<borderW || j>=width-borderH || i<borderH || i>=height-borderH)
             {
          
-                cout<<"#";
+                cout<<char(219);
             } else 
             {
                 cout<<" ";
