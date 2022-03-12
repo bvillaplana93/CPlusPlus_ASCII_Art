@@ -6,10 +6,12 @@ cout<<""<<endl;
 
 cout<<"tringle\n"<<endl;
 
-//Make sure TriangleHeight and TriangleWidth must be odd numbers 
+//Make sure TriangleWidth must be odd number and TriangleHeight must be (TriangleWidth/2+1), in this calse, because we are workind
+//with int, but if we were working with double, float or something like that, we must use +0.5
 
-int TriangleHeight = 16;
-int TriangleWidth =31;
+
+int TriangleWidth =15;
+int TriangleHeight = (TriangleWidth/2)+1;
 
 int borderIA = 0;
 int borderIB = 2;
