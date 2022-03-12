@@ -1,10 +1,12 @@
 //How to make a triangle
 
+
+
 cout<<""<<endl;
 
 cout<<"tringle\n"<<endl;
 
-
+//Make sure TriangleHeight and TriangleWidth must be odd numbers 
 
 int TriangleHeight = 16;
 int TriangleWidth =31;
